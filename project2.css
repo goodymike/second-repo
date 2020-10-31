@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.red-list {
+    list-style: none;
+  }
+  @keyframes example {
+      0%{ 
+          top: 0px;}
+      25% {
+          top: 20px;
+      }
+    75%{
+        top: 50px;
+    }
+    100%{
+        top: 0px;
+    }
+  }
+  .anima{
+      position: relative;
+      animation-name: example;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+  }
+  
+  .red-list li:before {
+    content: '✓';
+    padding-right: 10px;
+    color: red;
+  }
+  .red-list li{
+      font-size: 1.2rem;
+      padding: 1.2rem 0px;
+  }
+  .top-jumbo{
+      padding: 1.5rem 2rem;
+  }
+  .botton{
+      background-color: teal;
+      width: 20%;
+      padding: 0.9rem;
+      font-size: 1.1rem;
+      color: whitesmoke;
+  }
+  .thumbnails{
+      background-color: white;
+      padding: 1.2rem 2rem;
+      margin: 1.2rem 2rem;
+      border-radius: 3px;
+      line-height: 1.5rem;
+  }
+  .thumbnails img {
+      margin-bottom: 20px;
+  }
+  .jumbo {
+      margin-bottom:0rem;
+      
+  }
+  .bin{
+      padding: 0rem 1.2rem;
+      
+  }
+  .bin-item{
+      padding: 1.2rem;
+  }
+  .bin-item a {
+      text-decoration: none;
+      color: white;
+  }
+  .bin h3{
+      padding: auto ;
+      margin-top: 5rem;
+  }
+  .bin button{
+      width: 70%;
+      padding: 5px 5px;
+      height: 40px;
+      margin-top: 5rem;
+      margin-left: 5rem;
+  }
+  .bin img {
+      width: 50%;
+  }
+  .footer {
+      background-color: #00808085;
+      color: white;
+      padding-left: 3rem;
+  }
+  .footer li {
+    font-size: 1rem;
+    padding: 0.7rem 0px;
+    margin-left: 1.2rem;
+    font-weight: 600;
+}
+form {
+    background-color: white;
+    justify-content: center;
+    margin: 3rem auto 2rem;
+    border-radius: 5px;
+    width: 90%;
+}
+
+.last{
+    margin:1rem 0rem;
+    width: 100%;
+    position: relative;
+    padding: 2rem 2rem;
+}
+.login {
+    background-color: #20c997;
+    min-width: 75%;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    border: 1px solid #ced4da;
+    border-radius: 5px 5px 5px 5px;
+    margin: 1.8rem 3rem; 
+    
+}
+.pad {
+    
+    border: 1px solid #ced4da;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 1.8rem 3rem;
+}
+.sign-up {
+    background-color: #eee;
+    padding: 2rem 10px;
+    margin: 0px 0px;
+    width: 100%;
+}
+ a {
+    color: black;
+    text-decoration: underline;
+    text-decoration: none;
+}
+.navi{
+    font-weight: bold;
+    border-radius: 5px 5px 0px 0px;
+}
+.navi:hover {
+    color: blue;
+    background-color: chartreuse;
+    border-bottom: none;
+
+}
+.navi:active {
+    color: blue;
+    border-bottom: 2px solid chartreuse;
+    border: none;
+
+}
+
+.card{
+    padding: 0rem 0rem;
+    text-align: center;
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+
+.red {
+    color: red;
+}
+.bold{
+    font-weight: bold;
+}
+.projects {
+    line-height: 2rem;
+}
+.carder {
+    padding: 1.2rem ;
+}
+.fa{
+    padding: 0.4rem;
+}
